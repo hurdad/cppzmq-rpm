@@ -24,7 +24,7 @@ install -Dpm 644 zmq.hpp %{buildroot}%{_includedir}/zmq_addons.hpp
 
 %files
 %defattr(-,root,root)
-%doc LICENSE README
+%doc LICENSE README.md
 %{_includedir}/zmq.hpp
 %{_includedir}/zmq_addons.hpp
 

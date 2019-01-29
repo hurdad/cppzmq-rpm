@@ -1,5 +1,5 @@
 # cppzmq-devel
-version = 4.2.2
+version = 4.3.0
 name = cppzmq
 full_name = $(name)-$(version)
 download_url = "https://github.com/zeromq/$(name)/archive/v$(version).tar.gz"
