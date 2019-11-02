@@ -1,3 +1,5 @@
+%define debug_package %{nil}
+
 Name:           cppzmq-devel
 Version:        %{VERSION}
 Release:        1
@@ -7,7 +9,6 @@ Group:          Development/Libraries/C and C++
 Url:            https://github.com/zeromq/cppzmq
 Source:         cppzmq-%{version}.tar.gz
 Requires:       zeromq-devel
-BuildRequires:	cmake3
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
 
 %description
